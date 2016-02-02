@@ -18,7 +18,7 @@ beans = {
     //register the filter from the wso2 example
     ssoAgentFilter (FilterRegistrationBean) {
        filter = bean(SSOAgentSampleFilter)
-        urlPatterns = ['/samlsso','/openid','/token','/logout']
+        urlPatterns = ['/samlsso','/openid','/token','/logout','/travelocity/home']
         order = Ordered.HIGHEST_PRECEDENCE
     }
 
